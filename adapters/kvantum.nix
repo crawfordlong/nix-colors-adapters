@@ -13,7 +13,7 @@
     };
 
     home.packages = with pkgs; [
-      breeze-icons # icons
+      kdePackages.breeze-icons # icons
       libsForQt5.kio-extras # file preview generator
     ];
 
